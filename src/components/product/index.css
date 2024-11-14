@@ -1,0 +1,26 @@
+/*  */
+
+.product-section {
+  margin-bottom: 190px;
+}
+.product-wrap {
+  width: 873px;
+}
+.product-title {
+  color: #3a173c;
+}
+.product-text {
+  color: var(--font-color);
+}
+
+.product-list {
+  margin-bottom: 99px;
+}
+.product-btn-wrap {
+  text-align: center;
+}
+.product-btn {
+  width: 420px;
+  background-color: var(--font-and-background-color);
+  color: var(--font-colors);
+}

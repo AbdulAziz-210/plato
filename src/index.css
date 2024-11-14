@@ -17,3 +17,8 @@
   /* height: 100vh; */
   padding: 0 30px;
 }
+
+:root {
+  --font-and-background-color: #3a173c;
+  --font-colors: #e0dcdb;
+}

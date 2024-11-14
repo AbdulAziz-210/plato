@@ -1,0 +1,42 @@
+/*  */
+/*  */
+.detail-section {
+  margin-bottom: 240px;
+}
+.detail-folder {
+  background-image: url("../../assets/images/purple-background.png");
+}
+
+.detail-wrapper {
+  max-width: 890px;
+}
+.detail-title {
+  color: var(--font-colors);
+  margin: auto;
+}
+.detail-bottom-title {
+  color: var(--font-colors);
+  margin: auto;
+}
+
+.detail-text-wrap {
+  margin: auto;
+  max-width: 950px;
+
+  margin-bottom: 52px;
+}
+.detail-text {
+  color: var(--font-colors);
+}
+.detail-btn {
+  /* max-width: 420px; */
+  width: 100%;
+  width: 420px;
+  background-color: #b9e2bf;
+
+  margin: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
