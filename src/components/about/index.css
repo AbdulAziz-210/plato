@@ -1,0 +1,24 @@
+/*  */
+
+.about-section {
+  background-image: url("../../assets/images/circle.png"),
+    url("../../assets/images/leaf.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 509px) calc(50% - 224px),
+    calc(50% + 536px) calc(50% - 298px);
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  height: 700px;
+}
+
+.about-wrap {
+  width: 900px;
+  margin-bottom: 85px;
+  height: 100%;
+}
+.about-title {
+  color: #3a173c;
+}
