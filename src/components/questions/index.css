@@ -1,0 +1,34 @@
+/*  */
+
+.questions-folder {
+  background-image: url("../../assets/images/purple-background-mini.png");
+  background-repeat: no-repeat;
+
+  position: relative;
+  height: 370px;
+}
+
+.questions-wrapper {
+  max-width: 1066px;
+  width: 100%;
+}
+.questions-title {
+  color: var(--font-colors);
+}
+
+.questions-img {
+  position: absolute;
+  right: 13px;
+  bottom: 10px;
+}
+
+.questions-wrap {
+  height: 100px;
+  background-color: #3a173c;
+
+  margin: 70px 0 32px;
+}
+.questions-btn {
+  width: 92px;
+  background-color: #b9e2bf;
+}

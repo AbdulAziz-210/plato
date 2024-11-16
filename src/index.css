@@ -22,3 +22,14 @@
   --font-and-background-color: #3a173c;
   --font-colors: #e0dcdb;
 }
+
+.font-c {
+  color: var(--font-and-background-color);
+}
+
+.font-fff {
+  color: var(--font-colors);
+}
+.font-f0 {
+  color: #c0b9b5;
+}

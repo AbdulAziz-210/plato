@@ -11,6 +11,9 @@ import Limitless from "../limitless";
 import Couch from "../couch";
 import Cheap from "../cheap";
 import Purchase from "../purchase";
+import Rusult from "../result";
+import Questions from "../questions";
+import Footer from "../footer";
 
 function App() {
   return (
@@ -27,6 +30,9 @@ function App() {
         <Couch />
         <Cheap />
         <Purchase />
+        <Rusult />
+        <Questions />
+        <Footer />
       </div>
     </>
   );

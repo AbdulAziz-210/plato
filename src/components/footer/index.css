@@ -1,0 +1,67 @@
+/*  */
+
+.footer-section {
+  height: 500px;
+  background-image: url("../../assets/images/purple-circle.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 404px) calc(50% - 78px);
+}
+.footer-folder {
+  position: relative;
+}
+.footer-title {
+  color: var(--font-and-background-color);
+  margin-bottom: 80px;
+}
+
+.footer-text {
+  margin-top: 17px;
+  max-width: 260px;
+  width: 100%;
+  color: var(--font-and-background-color);
+}
+.footer-wrapper {
+  display: flex;
+  margin-bottom: 50px;
+}
+.footer-wrap {
+  margin-left: 50px;
+}
+
+.footer-btn {
+  background-color: var(--font-and-background-color);
+  max-width: 115px;
+  width: 100%;
+  color: var(--font-colors);
+  margin-bottom: 30px;
+}
+.footer-social {
+  line-height: 100px;
+}
+.footer-privacy {
+  position: absolute;
+  bottom: -25px;
+  right: 5px;
+}
+/*  */
+/*  */
+/*  */
+
+.footer-bottom-wrap {
+  background-color: var(--font-and-background-color);
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 30px;
+}
+
+.footer-bottom-btn {
+  background-color: #b9e2bf;
+  border-radius: 50px;
+  max-width: 110px;
+  width: 100%;
+  padding: 7px 0;
+  color: #3a173c;
+}

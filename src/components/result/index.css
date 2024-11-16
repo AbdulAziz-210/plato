@@ -1,0 +1,27 @@
+/*  */
+.result-section {
+  margin-bottom: 178px;
+}
+.result-folder {
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.result-wrapper {
+  max-width: 630px;
+  width: 100%;
+  margin: auto;
+}
+
+.result-wrap {
+  max-width: 630px;
+  width: 100%;
+  margin: auto;
+}
+
+.result-question {
+  margin: 104px 0 40px;
+  color: var(--font-and-background-color);
+}
