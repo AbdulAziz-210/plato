@@ -1,0 +1,31 @@
+/*  */
+
+.cheap-section {
+  padding-top: 184px;
+
+  background-image: url("../../assets/images/circle.png"),
+    url("../../assets/images/left-leaf.svg"),
+    url("../../assets/images/leaf.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 482px) calc(50% - 124px),
+    calc(50% - 544px) calc(50% + 259px), calc(50% + 584px) calc(50% - 93px);
+  margin-bottom: 160px;
+}
+
+.cheap-title {
+  max-width: 1030px;
+  width: 100%;
+  color: var(--font-and-background-color);
+  margin-bottom: 55px;
+}
+.cheap-text {
+  max-width: 640px;
+  width: 100%;
+  color: var(--font-and-background-color);
+}
+.cheap-btn {
+  width: 420px;
+  color: var(--font-colors);
+  background-color: var(--font-and-background-color);
+  margin-top: 78px;
+}

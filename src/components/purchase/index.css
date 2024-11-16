@@ -1,0 +1,62 @@
+/*  */
+.purchase-section {
+  margin-bottom: 189px;
+}
+
+.purchase-folder {
+  background-image: url("../../assets/images/purple-background.png");
+}
+
+.purchase-title {
+  color: var(--font-colors);
+  margin-bottom: 45px;
+}
+
+.purchase-text {
+  color: var(--font-colors);
+  margin-bottom: 70px;
+}
+
+.purchase-next-text {
+  max-width: 532px;
+  width: 100%;
+  color: var(--font-colors);
+}
+
+.purchase-strong {
+  color: var(--font-colors);
+  font-weight: 400;
+}
+.purchase-btn {
+  max-width: 320px;
+  width: 100%;
+  background-color: #b9e2bf;
+  margin-bottom: 15px;
+  border: 2px solid transparent;
+  transition: ease 0.2s;
+}
+.purchase-btn:hover {
+  background-color: transparent;
+  border: 2px solid #b9e2bf;
+  color: #b9e2bf;
+}
+
+.purchase-btns {
+  max-width: 320px;
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid #e0dcdb;
+  color: var(--font-colors);
+}
+.purchase-btns:hover {
+  background-color: #b9e2bf;
+  color: var(--font-and-background-color);
+}
+
+.purchase-span {
+  color: var(--font-colors);
+}
+
+.purchase-img {
+  position: absolute;
+}

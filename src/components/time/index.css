@@ -1,0 +1,23 @@
+/*  */
+/*  */
+.time-section {
+  /* position: relative; */
+}
+.time-wrapper {
+  background-image: url("../../assets/images/purple-background-mini.png");
+  background-repeat: no-repeat;
+}
+.time-title {
+  color: var(--font-colors);
+  max-width: 1000px;
+  width: 100%;
+}
+.time-numbers {
+  color: var(--font-colors);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.time-numbers:not(:last-child) {
+  border-right: 2px solid #e0dcdb;
+}

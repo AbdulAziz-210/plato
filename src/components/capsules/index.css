@@ -1,0 +1,27 @@
+/*  */
+/*  */
+/*  */
+
+.capsules-section {
+  background-image: url("../../assets/images/left-leaf.svg"),
+    url("../../assets/images/leaf.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 585px) calc(50% + 193px),
+    calc(50% + 445px) calc(50% - 214px);
+  margin-bottom: 148px;
+}
+
+.capsules-text {
+  color: var(--font-and-background-color);
+}
+.capsules-btn {
+  max-width: 420px;
+  width: 100%;
+  background-color: var(--font-and-background-color);
+  color: var(--font-colors);
+}
+
+.capsules-wrap {
+  max-width: 548px;
+  width: 100%;
+}

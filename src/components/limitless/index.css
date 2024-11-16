@@ -1,0 +1,48 @@
+/*  */
+/*  */
+/*  */
+
+.limitless-section {
+  margin: 200px 0 207px;
+
+  background-image: url("../../assets/images/left-leaf.svg"),
+    url("../../assets/images/leaf.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 548px) calc(50% + 434px),
+    calc(50% + 558px) calc(50% - 592px);
+}
+
+.limitless-title {
+  max-width: 1000px;
+  width: 100%;
+  color: var(--font-and-background-color);
+}
+.limitless-wrapper {
+  max-width: 640px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 70px;
+}
+.limitless-text {
+  color: var(--font-and-background-color);
+}
+.limitless-text:last-child() {
+  margin-bottom: 60px;
+}
+
+.limitless-inner-title {
+  color: var(--font-and-background-color);
+  max-width: 1065px;
+  width: 100%;
+}
+.limitless-inner-text {
+  max-width: 650px;
+  width: 100%;
+  text-align: center;
+}
+.limitless-btn {
+  max-width: 420px;
+  width: 100%;
+  background-color: var(--font-and-background-color);
+  color: var(--font-colors);
+}
