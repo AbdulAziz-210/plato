@@ -6,7 +6,7 @@ const Plato = () => {
   return (
     <div className="plato-section">
       <div className="plato-wrap container">
-        <h1 className="plato-title inline-block text-8xl mb-9 ">
+        <h1 className="plato-title inline-block text-7xl mb-9 ">
           More focus. <br />
           Fewer off days.
         </h1>
@@ -16,7 +16,7 @@ const Plato = () => {
         <button className="plato-btn rounded-full py-4 mr-6">
           Try 7 Days for $7
         </button>
-        <button className="shop-btn rounded-full py-4 ">Shop Now </button>
+        <button className="shop-btn rounded-full py-4">Shop Now </button>
       </div>
       <img className="wave-img" src={waveImg} alt="" />
     </div>

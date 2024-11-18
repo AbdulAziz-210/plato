@@ -28,4 +28,10 @@
   color: var(--font-colors);
   background-color: var(--font-and-background-color);
   margin-top: 78px;
+  border: 2px solid var(--font-and-background-color);
+  transition: ease 0.3s;
+}
+.cheap-btn:hover {
+  background-color: transparent;
+  color: var(--font-and-background-color);
 }

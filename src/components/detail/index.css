@@ -39,4 +39,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 2px solid transparent;
+  transition: ease 0.3s;
+}
+
+.detail-btn:hover {
+  background-color: transparent;
+  border-color: #b9e2bf;
+  color: #b9e2bf;
 }

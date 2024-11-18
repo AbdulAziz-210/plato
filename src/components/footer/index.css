@@ -34,7 +34,13 @@
   width: 100%;
   color: var(--font-colors);
   margin-bottom: 30px;
+  border: 2px solid var(--font-and-background-color);
 }
+.footer-btn:hover {
+  background-color: transparent;
+  color: #3a173c;
+}
+
 .footer-social {
   line-height: 100px;
 }
@@ -64,4 +70,10 @@
   width: 100%;
   padding: 7px 0;
   color: #3a173c;
+  border: 2px solid #b9e2bf;
+  transition: ease 0.3s;
+}
+.footer-bottom-btn:hover {
+  background-color: transparent;
+  color: #b9e2bf;
 }

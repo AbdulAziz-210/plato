@@ -31,4 +31,11 @@
 .questions-btn {
   width: 92px;
   background-color: #b9e2bf;
+  border: 2px solid #b9e2bf;
+  transition: ease 0.3s;
+}
+
+.questions-btn:hover {
+  background-color: transparent;
+  color: #b9e2bf;
 }

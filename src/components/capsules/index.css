@@ -19,6 +19,12 @@
   width: 100%;
   background-color: var(--font-and-background-color);
   color: var(--font-colors);
+  border: 2px solid var(--font-and-background-color);
+  transition: ease 0.3s;
+}
+.capsules-btn:hover {
+  background-color: transparent;
+  color: var(--font-and-background-color);
 }
 
 .capsules-wrap {

@@ -16,7 +16,7 @@ const Product = () => {
             <h2 className="product-title text-8xl mb-11">
               Making it harder to get off task
             </h2>
-            <p className="product-title-text text-4xl">
+            <p className="product-title-text text-4xl font-c">
               Four safe ingredients to target focus, fatigue, and energy drain
             </p>
           </div>
@@ -24,8 +24,10 @@ const Product = () => {
             <li className="product-item flex items-center">
               <img className="product-img" src={greenTea} alt="" />
               <div className="flex flex-col">
-                <p className="product-text text-lg">L-Theanine, 200 mg</p>
-                <p className="product-text text-6xl mb-9">
+                <p className="product-text text-lg font-c ">
+                  L-Theanine, 200 mg
+                </p>
+                <p className="product-text text-6xl mb-9 font-c">
                   the thing in green tea that you love
                 </p>
                 <p className="product-text text-lg">
