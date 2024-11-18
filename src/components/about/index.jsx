@@ -7,26 +7,26 @@ import girlImg from "../../assets/images/girl-img.svg";
 
 const About = () => {
   return (
-    <div className="about-section">
+    <div className="about-section w-100%">
       <div className="container">
         <div className="about-wrap pt-7 m-auto text-center">
-          <h2 className=" about-title text-6xl">
+          <h2 className=" about-title text-3xl xl:text-6xl md:text-5xl sm:text-4xl">
             Busy people love Plato for more energy, better focus, and a feeling
             of calm
           </h2>
         </div>
         <div className="review-wrap">
-          <ul className="review-list flex">
+          <ul className="review-list flex ">
             <li className="review-item">
               <img className="review-img mb-8" src={womanImg} alt="" />
-              <p className="review-text text-xl">
+              <p className="review-text pb-3 text-xl">
                 "Taking Plato every morning gave me an awesome boost of energy
                 for the day. I noticed I was getting less tired, less stressed,
                 and was able to manage more. This nootropic is hands down
                 awesome. I highly recommend it to anyone looking for more
                 energy, mental clarity, better focus, and more zen."
               </p>
-              <div className="customer-wrap flex flex-col">
+              <div className="customer-wrap flex flex-col ">
                 <span className="customer-text text-lg ">Daniela S.</span>
                 <span className="customer-text text-lg">Verified Customer</span>
               </div>

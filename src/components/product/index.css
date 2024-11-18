@@ -4,7 +4,8 @@
   margin-bottom: 190px;
 }
 .product-wrap {
-  width: 873px;
+  max-width: 873px;
+  width: 100%;
 }
 .product-title {
   color: #3a173c;

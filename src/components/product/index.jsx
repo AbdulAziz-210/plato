@@ -13,15 +13,15 @@ const Product = () => {
       <div className="container">
         <div className="product-folder">
           <div className="product-wrap m-auto text-center mb-12">
-            <h2 className="product-title text-8xl mb-11">
+            <h2 className="product-title  sm:text-5xl  md:text-6xl lg:text-8xl text-5xl mb-11">
               Making it harder to get off task
             </h2>
-            <p className="product-title-text text-4xl font-c">
+            <p className="product-title-text sm:text-2xl md:text-3xl lg:text-4xl font-c">
               Four safe ingredients to target focus, fatigue, and energy drain
             </p>
           </div>
           <ul className="product-list">
-            <li className="product-item flex items-center">
+            <li className="product-item  items-center flex-col sm:flex-col md:flex-row lg:flex-row ">
               <img className="product-img" src={greenTea} alt="" />
               <div className="flex flex-col">
                 <p className="product-text text-lg font-c ">
@@ -36,7 +36,7 @@ const Product = () => {
               </div>
             </li>
 
-            <li className="product-item  flex items-center flex-row-reverse">
+            <li className="product-item  flex-col items-center lg:flex-row-reverse sm:flex-col">
               <img className="product-img" src={student} alt="" />
               <div className="flex flex-col">
                 <p className="product-text text-lg">Bacopa Monnieri, 300 mg</p>
@@ -49,7 +49,7 @@ const Product = () => {
               </div>
             </li>
 
-            <li className="product-item flex items-center">
+            <li className="product-item flex-col items-center sm:flex-col">
               <img className="product-img" src={greenPlan} alt="" />
               <div className="flex flex-col">
                 <p className="product-text text-lg">Rhodiola Rosea, 100 mg</p>
@@ -63,7 +63,7 @@ const Product = () => {
               </div>
             </li>
 
-            <li className="product-item flex items-center flex-row-reverse">
+            <li className="product-item flex-col  items-center lg:flex-row-reverse sm:flex-col ">
               <img className="product-img" src={manImage} alt="" />
               <div className="flex flex-col">
                 <p className="product-text text-lg">Panax Ginseng, 60 mg</p>

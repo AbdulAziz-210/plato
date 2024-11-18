@@ -9,10 +9,16 @@
 }
 .focus-wrap {
   max-width: 850px;
+  padding: 0 20px;
 }
 .focus-title {
   color: #e0dcdb;
 }
 .focus-text {
   color: #e0dcdb;
+}
+
+.focus-wrap > img {
+  max-width: 520px;
+  width: 100%;
 }
