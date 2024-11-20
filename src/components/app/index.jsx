@@ -28,9 +28,9 @@ function App() {
         <Time />
         <Limitless /> */}
 
-        {/* <Couch />
+        <Couch />
         <Cheap />
-        <Purchase /> */}
+        <Purchase />
         <Rusult />
         <Questions />
         {/* <Footer /> */}
