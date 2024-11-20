@@ -6,10 +6,10 @@ import purplecircle from "../../assets/images/purple-circle.png";
 const Couch = () => {
   return (
     <div className="couch-section">
-      <div className="couch-folder">
-        <div className="couch-wrapper">
-          <img className="couch-img" src={purplecircle} alt="" />
-          <p className="couch-title text-6xl text-center mb-11">
+      <div className="couch-folder px-5">
+        <img className="couch-img " src={purplecircle} alt="" />
+        <div className="couch-wrapper pt-10 sm:pt-0">
+          <p className="couch-title text-4xl sm:text-5xl lg:text-6xl text-center mb-11">
             Get off the couch <br /> and _______
           </p>
           <p className="couch-text  text-lg text-center m-auto mb-6">

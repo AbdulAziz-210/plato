@@ -3,10 +3,10 @@ import "./index.css";
 
 const Cheap = () => {
   return (
-    <div className="cheap-section">
+    <div className="cheap-section px-5">
       <div className="cheap-folder">
         <div className="cheap-wrapper flex flex-col ">
-          <h2 className="cheap-title text-6xl text-center m-auto">
+          <h2 className="cheap-title text-3xl sm:text-5xl lg:text-6xl text-center m-auto">
             Costs less than a cup of coffee, with short-and-long term cognitive
             benefits
           </h2>
@@ -29,7 +29,7 @@ const Cheap = () => {
             can invest in, and can help you get to a baseline of calm and
             clarity so you can tackle life head on.
           </p>
-          <button className="cheap-btn rounded-full py-5 m-auto text-center">
+          <button className="cheap-btn rounded-full py-3 lg:py-5 m-auto text-center">
             Get Plato Now
           </button>
         </div>

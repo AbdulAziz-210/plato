@@ -31,10 +31,21 @@
 }
 
 @media (max-width: 950px) {
+  .capsules-section {
+    margin-bottom: 100px;
+  }
   .capsules-folder {
     flex-direction: column;
   }
   .detail-section {
     margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 900px) {
+  .capsules-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }

@@ -45,8 +45,8 @@
   max-width: 320px;
   width: 100%;
   background-color: transparent;
-  border: 2px solid #e0dcdb;
-  color: var(--font-colors);
+  border: 2px solid #b9e2bf;
+  color: #b9e2bf;
 }
 .purchase-btns:hover {
   background-color: #b9e2bf;
@@ -59,4 +59,20 @@
 
 .purchase-img {
   position: absolute;
+}
+
+@media (max-width: 535px) {
+  .purchase-section {
+    margin-bottom: 80px;
+  }
+  .purchase-img {
+    display: none;
+  }
+}
+
+@media (max-width: 350px) {
+  .purchase-btn,
+  .purchase-btns {
+    max-width: 200px;
+  }
 }

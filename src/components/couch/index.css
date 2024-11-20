@@ -19,3 +19,29 @@
   width: 100%;
   color: var(--font-colors);
 }
+
+@media (max-width: 800px) {
+  .couch-img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 550px) {
+  .couch-section {
+    background-image: none;
+    height: 550px;
+  }
+  .couch-folder {
+    background-image: url("../../assets/images/purple-background.png");
+    height: 500px;
+  }
+  .couch-img {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .couch-folder {
+    height: 600px;
+  }
+}

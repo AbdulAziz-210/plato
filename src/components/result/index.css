@@ -25,3 +25,12 @@
   margin: 104px 0 40px;
   color: var(--font-and-background-color);
 }
+
+@media (max-width: 450px) {
+  .result-question {
+    margin: 50px 0 20px;
+  }
+  .result-section {
+    margin-bottom: 80px;
+  }
+}

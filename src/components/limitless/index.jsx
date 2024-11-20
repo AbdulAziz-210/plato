@@ -5,10 +5,10 @@ import platoImg from "../../assets/images/plato-img.png";
 
 const Limitless = () => {
   return (
-    <div className="limitless-section">
+    <div className="limitless-section px-5">
       <div className="limitless">
-        <div className="limitless-folder flex flex-col items-center justify-center">
-          <p className="limitless-title text-8xl m-auto text-center mb-12">
+        <div className="limitless-folder flex flex-col items-center justify-center ">
+          <p className="limitless-title text-4xl sm:text-6xl lg:text-8xl m-auto text-center mb-12">
             No, it’s not like the pill from Limitless
           </p>
           <div className="limitless-wrapper">
@@ -24,7 +24,7 @@ const Limitless = () => {
             </p>
           </div>
           <img className="limitless-img" src={platoImg} alt="" />
-          <p className="limitless-inner-title text-4xl text-center my-12">
+          <p className="limitless-inner-title text-3xl sm:text-4xl text-center my-12">
             Noticeably improve your attention, enhance your focus, and support
             your concentration without the question marks surrounding sourcing
             or safety.
