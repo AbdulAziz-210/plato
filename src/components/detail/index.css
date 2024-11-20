@@ -1,5 +1,4 @@
 /*  */
-/*  */
 .detail-section {
   margin-bottom: 240px;
 }
@@ -29,9 +28,8 @@
   color: var(--font-colors);
 }
 .detail-btn {
-  /* max-width: 420px; */
+  max-width: 420px;
   width: 100%;
-  width: 420px;
   background-color: #b9e2bf;
 
   margin: auto;
@@ -42,7 +40,6 @@
   border: 2px solid transparent;
   transition: ease 0.3s;
 }
-
 .detail-btn:hover {
   background-color: transparent;
   border-color: #b9e2bf;

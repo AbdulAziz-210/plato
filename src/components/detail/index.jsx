@@ -8,17 +8,16 @@ const Detail = () => {
   return (
     <div className="detail-section">
       <img src={purpleWaveImg} alt="" />
-      {/* <div className="container"> */}
-      <div className="detail-folder">
-        <div className="detail-wrapper m-auto pb-12">
-          <h2 className="detail-title text-6xl text-center">
+      <div className="detail-folder px-5 ">
+        <div className="detail-wrapper m-auto pb-12 ">
+          <h2 className="detail-title text-3xl  md:text-5xl lg:text-6xl text-center">
             Two Capsules Daily:
           </h2>
-          <p className="detail-bottom-title text-6xl text-center ">
+          <p className="detail-bottom-title text-3xl md:text-5xl lg:text-6xl text-center ">
             Smart self care to reduce the symptoms of stress and help you focus
           </p>
         </div>
-        <div className="detail-text-wrap mb-6">
+        <div className="detail-text-wrap mb-6 ">
           <p className="detail-text text-lg mb-5">
             Your happiness (and ability to focus) are impacted by the amount of
             stress you experience. In the same way, negative feelings can
@@ -38,7 +37,6 @@ const Detail = () => {
         </div>
         <button className="detail-btn rounded-full py-5 "> Learn More</button>
       </div>
-      {/* </div> */}
       <img src={bottomPurple} alt="" />
     </div>
   );

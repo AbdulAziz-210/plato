@@ -23,10 +23,10 @@ function App() {
         <About />
         <Focus />
         <Product />
-        {/* <Detail /> */}
-        {/* <Capsules /> */}
-        {/* <Time /> */}
-        {/* <Limitless /> */}
+        <Detail />
+        <Capsules />
+        <Time />
+        <Limitless />
         {/* <Couch /> */}
         {/* <Cheap /> */}
         {/* <Purchase /> */}

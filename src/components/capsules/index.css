@@ -1,6 +1,4 @@
 /*  */
-/*  */
-/*  */
 
 .capsules-section {
   background-image: url("../../assets/images/left-leaf.svg"),
@@ -30,4 +28,13 @@
 .capsules-wrap {
   max-width: 548px;
   width: 100%;
+}
+
+@media (max-width: 950px) {
+  .capsules-folder {
+    flex-direction: column;
+  }
+  .detail-section {
+    margin-bottom: 50px;
+  }
 }

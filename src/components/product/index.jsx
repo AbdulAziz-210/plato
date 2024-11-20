@@ -21,13 +21,13 @@ const Product = () => {
             </p>
           </div>
           <ul className="product-list">
-            <li className="product-item  items-center flex-col sm:flex-col md:flex-row lg:flex-row ">
+            <li className="product-item  items-center flex-col sm:flex-col md:flex-row lg:flex sm:mb-6">
               <img className="product-img" src={greenTea} alt="" />
               <div className="flex flex-col">
                 <p className="product-text text-lg font-c ">
                   L-Theanine, 200 mg
                 </p>
-                <p className="product-text text-6xl mb-9 font-c">
+                <p className="product-text text-3xl sm:text-4xl  lg:text-6xl mb-9 font-c">
                   the thing in green tea that you love
                 </p>
                 <p className="product-text text-lg">
@@ -36,11 +36,11 @@ const Product = () => {
               </div>
             </li>
 
-            <li className="product-item  flex-col items-center lg:flex-row-reverse sm:flex-col">
+            <li className="product-item flex-col sm:flex-col md:flex-row lg:flex items-center lg:flex-row-reverse sm:mb-6">
               <img className="product-img" src={student} alt="" />
               <div className="flex flex-col">
                 <p className="product-text text-lg">Bacopa Monnieri, 300 mg</p>
-                <p className="product-text text-6xl mb-9">
+                <p className="product-text text-3xl sm:text-4xl lg:text-6xl mb-9  ">
                   a student’s secret weapon
                 </p>
                 <p className="product-text text-lg">
@@ -49,11 +49,11 @@ const Product = () => {
               </div>
             </li>
 
-            <li className="product-item flex-col items-center sm:flex-col">
+            <li className="product-item flex-col sm:flex-col md:flex-row lg:flex items-center sm:flex-col sm:mb-6">
               <img className="product-img" src={greenPlan} alt="" />
               <div className="flex flex-col">
                 <p className="product-text text-lg">Rhodiola Rosea, 100 mg</p>
-                <p className="product-text text-6xl mb-9">
+                <p className="product-text text-3xl sm:text-4xl lg:text-6xl mb-9">
                   the no worries root
                 </p>
                 <p className="product-text text-lg">
@@ -63,11 +63,11 @@ const Product = () => {
               </div>
             </li>
 
-            <li className="product-item flex-col  items-center lg:flex-row-reverse sm:flex-col ">
+            <li className="product-item flex-col sm:flex-col md:flex-row lg:flex  items-center lg:flex-row-reverse sm:flex-col sm:mb-6">
               <img className="product-img" src={manImage} alt="" />
               <div className="flex flex-col">
                 <p className="product-text text-lg">Panax Ginseng, 60 mg</p>
-                <p className="product-text text-6xl mb-9">
+                <p className="product-text text-3xl sm:text-4xl lg:text-6xl mb-9">
                   helps you stay in a productive flow
                 </p>
                 <p className="product-text text-lg">
@@ -78,11 +78,11 @@ const Product = () => {
             </li>
           </ul>
 
-          <div className="product-btn-wrap">
-            <button className="product-btn py-5 rounded-full mr-11">
+          <div className="product-btn-wrap gap-4 flex-col lg:flex-row md:flex items-center justify-center">
+            <button className="product-btn py-3 md:py-5 rounded-full lg:mr-11 mb-3 lg:mb-0">
               Why These Ingredients
             </button>
-            <button className="product-btn py-5 rounded-full">
+            <button className="product-btn py-3 md:py-5 rounded-full ">
               See Supplement Facts Label
             </button>
           </div>

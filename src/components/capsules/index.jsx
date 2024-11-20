@@ -8,10 +8,13 @@ const Capsules = () => {
   return (
     <div className="capsules-section">
       <div className="container">
-        <div className="capsules-folder flex items-center gap-11">
+        <div className="capsules-folder flex items-center justify-center lg:gap-11">
           <img src={capsuleImg} alt="" />
           <div className="capsules-wrap ">
-            <p className="capsules-text text-8xl mb-8"> 2 capsules of Plato</p>
+            <p className="capsules-text text-4xl sm:text-5xl  lg:text-8xl   mb-8">
+              {" "}
+              2 capsules of Plato
+            </p>
             <p className="capsules-text text-lg mb-3">
               Not only does Plato help you adapt to stressful situations, it can
               help give you the energy and focus to make other positive changes

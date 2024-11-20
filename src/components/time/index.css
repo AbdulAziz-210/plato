@@ -2,6 +2,7 @@
 /*  */
 .time-section {
   /* position: relative; */
+  /* margin-bottom: -100px; */
 }
 .time-wrapper {
   background-image: url("../../assets/images/purple-background-mini.png");
@@ -12,12 +13,17 @@
   max-width: 1000px;
   width: 100%;
 }
-.time-numbers {
-  color: var(--font-colors);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+
+.time-list {
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
 }
-.time-numbers:not(:last-child) {
-  border-right: 2px solid #e0dcdb;
+
+.time-item {
+  max-width: 150px;
+  width: 100%;
+}
+.time-item:not(:last-child) {
+  border-right: 1px solid #e0dcdb;
 }

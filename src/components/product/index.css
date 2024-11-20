@@ -21,7 +21,8 @@
   text-align: center;
 }
 .product-btn {
-  width: 420px;
+  max-width: 420px;
+  width: 100%;
   background-color: var(--font-and-background-color);
   color: var(--font-colors);
   border: 2px solid #3a173c;
