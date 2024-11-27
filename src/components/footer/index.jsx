@@ -1,11 +1,48 @@
 //
 import "./index.css";
 import lineImg from "../../assets/images/bottom-line.png";
+//
+import platoBlack from "../../assets/images/plato-black.svg";
 
 const Footer = () => {
   return (
     <div className="footer-section ">
-      <div className="footer-folder px-8">
+      <div className="">
+        <div className="footer-top-wrap   px-11 h-24   mb-8">
+          <img className="mt-5" src={platoBlack} alt="" />
+
+          <div className="footer-link-folder">
+            <ul className="footer-list ">
+              <li>
+                <a className="font-f0" href="">
+                  Product
+                </a>
+              </li>
+              <li>
+                <a className="font-f0" href="">
+                  Learn
+                </a>
+              </li>
+              <li>
+                <a className="font-c" href="">
+                  <button className="footer-top-btn py-2">Shop</button>
+                </a>
+              </li>
+            </ul>
+
+            <div className="footer-link-wrap">
+              <a className="font-f0 mr-12" href="">
+                My Account
+              </a>
+              <a className="font-f0" href="">
+                My Cart
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="footer-folder px-8 ">
         <div className="footer-wrapper">
           <div>
             <p className="footer-title text-4xl">Newsletter</p>
@@ -17,7 +54,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="footer-wrap ">
-            <ul className="">
+            <ul className=" ">
               <li className="">
                 <a href="">
                   <button className="footer-btn rounded-full py-2">Shop</button>
@@ -66,10 +103,11 @@ const Footer = () => {
           Design:Sofia Code: No Matter
         </p>
       </div>
-      <div className="footer-bottom-wrap flex items-center">
-        <button className="footer-bottom-btn font-f0">Got it!</button>
+
+      <div className="footer-bottom-wrap flex items-center ">
+        <button className="footer-bottom-btn font-f0 ">Got it!</button>
         <p className="font-f0">Learn More</p>
-      </div>
+      </div> */}
     </div>
   );
 };

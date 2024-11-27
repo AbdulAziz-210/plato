@@ -27,10 +27,6 @@
   background-color: #3a173c;
 
   margin: 70px 0 32px;
-  /*  */
-  /* height: 300px; */
-
-  /*  */
 
   display: flex;
   align-items: center;
@@ -51,12 +47,9 @@
 .questions-box {
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
   gap: 20px;
 }
 
-/*  */
-/*  */
 /* responsiv start */
 
 @media (max-width: 850px) {
@@ -79,6 +72,13 @@
 }
 
 @media (max-width: 550px) {
+  .questions-wrap {
+    height: max-content;
+  }
+  .questions-wrappppp,
+  .questions-folderss {
+    width: 50%;
+  }
   .questions-plato-img {
     padding-top: 15px;
   }

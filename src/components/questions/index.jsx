@@ -4,7 +4,6 @@ import "./index.css";
 import topWaveImg from "../../assets/images/top-wave.png";
 import bottomWaveImg from "../../assets/images/bottom-wave.png";
 import handeImg from "../../assets/images/hand.svg";
-import platoBlack from "../../assets/images/plato-black.svg";
 
 const Questions = () => {
   return (
@@ -24,36 +23,38 @@ const Questions = () => {
         </div>
       </div>
       <img src={bottomWaveImg} alt="" />
-
-      <div className="questions-wrap px-5">
-        <img className="questions-plato-img" src={platoBlack} alt="" />
-
-        <div className=" questions-box">
-          {/*  */}
-          <div className="questions-wrappppp flex items-center   gap-9 py-8 ">
-            <a className="questions-link font-f0" href="">
-              Product
-            </a>
-            <a className="questions-link font-f0" href="">
-              Learn
-            </a>
-            <a className="" href="">
-              <button className="questions-btn rounded-full py-2">Shop</button>
-            </a>
-          </div>
-        </div>
-
-        <div className="questions-folderss flex gap-6">
-          <a href="" className="font-f0">
-            My Account
-          </a>
-          <a href="" className="font-f0">
-            My Cart
-          </a>
-        </div>
-      </div>
     </div>
   );
 };
 
 export default Questions;
+
+// {/* <div className="questions-wrap px-5">
+//         <img className="questions-plato-img" src={platoBlack} alt="" />
+
+//         {/* <div className=""> */}
+//         <div className=" questions-box">
+//           {/*  */}
+//           <div className="questions-wrappppp flex items-center   gap-9 py-8 ">
+//             <a className="questions-link font-f0" href="">
+//               Product
+//             </a>
+//             <a className="questions-link font-f0" href="">
+//               Learn
+//             </a>
+//             <a className="" href="">
+//               <button className="questions-btn rounded-full py-2">Shop</button>
+//             </a>
+//           </div>
+//         </div>
+
+//         <div className="questions-folderss flex gap-6">
+//           <a href="" className="font-f0">
+//             My Account
+//           </a>
+//           <a href="" className="font-f0">
+//             My Cart
+//           </a>
+//         </div>
+//         {/* </div> */}
+//       </div> */}
