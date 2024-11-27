@@ -19,20 +19,20 @@ function App() {
   return (
     <>
       <div>
-        {/* <Plato />
+        <Plato />
         <About />
         <Focus />
         <Product />
         <Detail />
         <Capsules />
         <Time />
-        <Limitless /> */}
+        <Limitless />
 
-        {/* <Couch />
+        <Couch />
         <Cheap />
-        <Purchase /> */}
-        {/* <Rusult />
-        <Questions /> */}
+        <Purchase />
+        <Rusult />
+        <Questions />
         <Footer />
       </div>
     </>
