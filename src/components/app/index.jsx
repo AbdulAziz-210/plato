@@ -31,8 +31,8 @@ function App() {
         {/* <Couch />
         <Cheap />
         <Purchase /> */}
-        <Rusult />
-        <Questions />
+        {/* <Rusult />
+        <Questions /> */}
         <Footer />
       </div>
     </>

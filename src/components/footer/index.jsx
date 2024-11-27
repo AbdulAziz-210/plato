@@ -42,9 +42,9 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* <div className="footer-folder px-8 ">
+      <div className="footer-folder px-8 ">
         <div className="footer-wrapper">
-          <div>
+          <div className="mb-2 lg:mb-5">
             <p className="footer-title text-4xl">Newsletter</p>
             <img src={lineImg} alt="" />
 
@@ -53,7 +53,7 @@ const Footer = () => {
               Privacy Policy
             </p>
           </div>
-          <div className="footer-wrap ">
+          <div className="footer-wrap mb-5 ">
             <ul className=" ">
               <li className="">
                 <a href="">
@@ -92,10 +92,14 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="flex flex-col ml-12">
-            <p className="footer-social font-c text-6xl mb-2">Instagram</p>
-            <p className="footer-social font-c text-6xl mb-2">Facebook</p>
-            <p className="footer-social font-c text-6xl">Twitter</p>
+          <div className="flex flex-col lg:ml-12 mb-11">
+            <p className="footer-social font-c text-3xl lg:text-6xl mb-2">
+              Instagram
+            </p>
+            <p className="footer-social font-c text-3xl lg:text-6xl mb-2">
+              Facebook
+            </p>
+            <p className="footer-social font-c text-3xl lg:text-6xl">Twitter</p>
           </div>
         </div>
         <p className="footer-privacy font-c">
@@ -107,7 +111,7 @@ const Footer = () => {
       <div className="footer-bottom-wrap flex items-center ">
         <button className="footer-bottom-btn font-f0 ">Got it!</button>
         <p className="font-f0">Learn More</p>
-      </div> */}
+      </div>
     </div>
   );
 };
