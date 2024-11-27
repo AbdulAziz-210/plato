@@ -3,7 +3,7 @@ import "./index.css";
 
 const Result = () => {
   return (
-    <div className="result-section px-5">
+    <div className="result-section px-5" id="result">
       <div className="result-folder ">
         <div className="result-wrapper">
           <h2 className="font-c text-2xl lg:text-4xl mb-10 m-auto text-center">

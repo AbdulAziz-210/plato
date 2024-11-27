@@ -7,7 +7,7 @@ import girlImg from "../../assets/images/girl-img.svg";
 
 const About = () => {
   return (
-    <div className="about-section w-100%">
+    <div className="about-section w-100%" id="about">
       <div className="container">
         <div className="about-wrap pt-7 m-auto text-center">
           <h2 className=" about-title text-3xl xl:text-6xl md:text-5xl sm:text-4xl">

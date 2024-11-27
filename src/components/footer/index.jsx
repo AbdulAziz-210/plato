@@ -6,7 +6,7 @@ import platoBlack from "../../assets/images/plato-black.svg";
 
 const Footer = () => {
   return (
-    <div className="footer-section ">
+    <div className="footer-section " id="footer">
       <div className="">
         <div className="footer-top-wrap   px-11 h-24   mb-8">
           <img className="mt-5" src={platoBlack} alt="" />

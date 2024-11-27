@@ -7,7 +7,7 @@ import repeat from "../../assets/images/repeat.png";
 
 const Focus = () => {
   return (
-    <div className="focus-section">
+    <div className="focus-section" id="focus">
       <img src={purpleWaveImg} alt="purpleWaveImg" />
       <div className="focus-folder">
         <div className="focus-wrap m-auto text-center flex flex-col items-center ">

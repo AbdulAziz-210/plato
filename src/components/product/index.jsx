@@ -9,7 +9,7 @@ import manImage from "../../assets/images/man-image.png";
 
 const Product = () => {
   return (
-    <div className="product-section">
+    <div className="product-section" id="product">
       <div className="container">
         <div className="product-folder">
           <div className="product-wrap m-auto text-center mb-12">

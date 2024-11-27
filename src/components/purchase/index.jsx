@@ -10,7 +10,7 @@ import square from "../../assets/images/square.svg";
 
 const Purchase = () => {
   return (
-    <div className="purchase-section ">
+    <div className="purchase-section " id="purchase">
       <img src={purpleWaveImg} alt="" />
       <div className="purchase-folder px-5">
         <div className="purchase-wrapper flex flex-col">

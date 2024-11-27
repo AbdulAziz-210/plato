@@ -14,7 +14,15 @@
   align-items: center;
   justify-content: center;
 }
-
+.plato-navbar > a {
+  position: absolute;
+  top: 30px;
+}
+.plato-list {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
 .plato-title {
   z-index: 100;
   color: #3a173c;
@@ -49,8 +57,26 @@
   width: 100%;
 }
 
+.hamburger-img {
+  display: none;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
 @media (max-width: 768px) {
   .wave-img {
+    display: none;
+  }
+}
+
+@media (max-width: 670px) {
+  .hamburger-img {
+    display: block;
+  }
+  .plato-list {
     display: none;
   }
 }
