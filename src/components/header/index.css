@@ -1,0 +1,38 @@
+/*  */
+
+.header-section {
+  background-color: #d3c8b7;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header-wrap {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pages {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.burger-btn {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .burger-btn {
+    display: block;
+  }
+  .header-list {
+    display: none;
+  }
+}
