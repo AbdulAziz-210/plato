@@ -12,7 +12,7 @@ export default function MobileHeader({ onClose }) {
         <div className="mobile header-wrap container">
           <div className="pages">
             <nav className="header-navbar">
-              <ul className="header-list flex itemx-center gap-5 text-xl">
+              <ul className="header-list  flex items-center gap-5 text-xl">
                 <li>
                   <a className="font-c" href="#about" onClick={onClose}>
                     about

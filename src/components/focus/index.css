@@ -22,3 +22,14 @@
   max-width: 520px;
   width: 100%;
 }
+
+@media (max-width: 900px) {
+  .focus-section {
+    margin-bottom: 130px;
+  }
+}
+@media (max-width: 700px) {
+  .focus-section {
+    margin-bottom: 85px;
+  }
+}

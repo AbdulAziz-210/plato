@@ -34,3 +34,9 @@
   border-color: #3a173c;
   color: #3a173c;
 }
+
+@media (max-width: 900px) {
+  .product-section {
+    margin-bottom: 90px;
+  }
+}

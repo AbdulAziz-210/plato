@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className="footer-section " id="footer">
       <div className="">
-        <div className="footer-top-wrap   px-11 h-24   mb-8">
+        <div className="footer-top-wrap   px-11 pb-5 lg:pb-0 h-24   mb-8">
           <img className="mt-5" src={platoBlack} alt="" />
 
           <div className="footer-link-folder">
@@ -54,7 +54,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="footer-wrap mb-5 ">
-            <ul className=" ">
+            <ul className=" ml-9 lg:ml-0">
               <li className="">
                 <a href="">
                   <button className="footer-btn rounded-full py-2">Shop</button>

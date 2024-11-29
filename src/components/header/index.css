@@ -1,18 +1,17 @@
 /*  */
 
-.header-section {
-  background-color: #d3c8b7;
-}
-
 .site-header {
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
+  background-color: #d3c8b7;
+  height: 80px;
+  z-index: 5;
 }
 
 .header-wrap {
-  padding-top: 30px;
+  padding-top: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -34,5 +33,14 @@
   }
   .header-list {
     display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  .header-wrap {
+    padding-top: 10px;
+  }
+  .site-header {
+    height: 60px;
   }
 }

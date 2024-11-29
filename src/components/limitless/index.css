@@ -52,3 +52,14 @@
   background-color: transparent;
   color: var(--font-and-background-color);
 }
+
+@media (max-width: 800px) {
+  .limitless-section {
+    margin: 100px 0 107px;
+  }
+}
+@media (max-width: 450px) {
+  .limitless-section {
+    margin: 70px 0 75px;
+  }
+}

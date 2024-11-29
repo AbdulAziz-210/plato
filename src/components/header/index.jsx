@@ -17,6 +17,8 @@ const Header = () => {
     setIsOpen(false);
   };
 
+  console.log(isOpen);
+
   return (
     <>
       <div className="header-section">
@@ -61,26 +63,18 @@ const Header = () => {
                 </ul>
               </nav>
             </div>
-            <button className="burger-btn">
-              {isOpen ? (
-                <img
-                  className="close-img"
-                  src={closeImg}
-                  alt="closeImg"
-                  width={35}
-                  height={35}
-                  onClick={onClose}
-                />
-              ) : (
-                <img
-                  className="hamburger-img"
-                  src={hamburger}
-                  alt="hamburgerImg"
-                  width={35}
-                  height={35}
-                  onClick={onOpen}
-                />
-              )}
+            <button
+              key={isOpen}
+              className="burger-btn"
+              onClick={() => setIsOpen((prev) => !prev)}
+            >
+              <img
+                className="close-img"
+                src={isOpen ? closeImg : hamburger}
+                alt="closeImg"
+                width={35}
+                height={35}
+              />
             </button>
           </div>
         </header>

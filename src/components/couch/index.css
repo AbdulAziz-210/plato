@@ -29,7 +29,7 @@
 @media (max-width: 550px) {
   .couch-section {
     background-image: none;
-    height: 550px;
+    height: 470px;
   }
   .couch-folder {
     background-image: url("../../assets/images/purple-background.png");
@@ -41,7 +41,7 @@
 }
 
 @media (max-width: 500px) {
-  .couch-folder {
-    height: 600px;
+  .couch-title {
+    margin: 0px 0 60px;
   }
 }
