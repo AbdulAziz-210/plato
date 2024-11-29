@@ -65,6 +65,9 @@
 .footer-wrap {
   margin-left: 50px;
 }
+.footer-wrap > ul {
+  margin-left: 10px;
+}
 
 .footer-btn {
   background-color: var(--font-and-background-color);
@@ -157,11 +160,23 @@
   .footer-top-btn {
     width: 150px;
   }
+  .footer-wrap > ul {
+    margin-left: 35px;
+  }
 }
 
 @media (max-width: 450px) {
   .footer-link-folder {
     flex-direction: column;
     margin: 0;
+  }
+  .footer-wrap > ul {
+    margin-left: 32px;
+  }
+}
+
+@media (max-width: 340px) {
+  .footer-wrap > ul {
+    margin-left: 15px;
   }
 }
