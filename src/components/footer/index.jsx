@@ -13,24 +13,24 @@ const Footer = () => {
 
           <div className="footer-link-folder">
             <ul className="footer-list ">
-              <li>
+              <li data-aos="fade-down">
                 <a className="font-f0" href="">
                   Product
                 </a>
               </li>
-              <li>
+              <li data-aos="fade-up">
                 <a className="font-f0" href="">
                   Learn
                 </a>
               </li>
-              <li>
+              <li data-aos="fade-down">
                 <a className="font-c" href="">
                   <button className="footer-top-btn py-2">Shop</button>
                 </a>
               </li>
             </ul>
 
-            <div className="footer-link-wrap">
+            <div className="footer-link-wrap" data-aos="fade-down">
               <a className="font-f0 mr-12" href="">
                 My Account
               </a>
@@ -60,57 +60,72 @@ const Footer = () => {
                   <button className="footer-btn rounded-full py-2">Shop</button>
                 </a>
               </li>
-              <li className="mb-3 text-base font-c">
+              <li className="mb-3 text-base font-c" data-aos="fade-right">
                 <a href="#">Blog </a>
               </li>
-              <li className="mb-3 text-base font-c">
+              <li className="mb-3 text-base font-c" data-aos="fade-left">
                 <a href="#">Press</a>
               </li>
-              <li className="mb-3 text-base font-c">
+              <li className="mb-3 text-base font-c" data-aos="fade-right">
                 <a href="#">Contact</a>
               </li>
-              <li className="mb-3 text-base font-c">
+              <li className="mb-3 text-base font-c" data-aos="fade-left">
                 <a href="#">My Account</a>
               </li>
-              <li className="mb-3 text-base font-c">
+              <li className="mb-3 text-base font-c" data-aos="fade-right">
                 <a href="#">FAQ</a>
               </li>
-              <li className="mb-3 text-base font-c">
+              <li className="mb-3 text-base font-c" data-aos="fade-left">
                 <a href="#">Shipping & Returns</a>
               </li>
-              <li className="mb-3 text-base font-c">
+              <li className="mb-3 text-base font-c" data-aos="fade-right">
                 <a href="#">Partner Program</a>
               </li>
-              <li className="mb-3 text-base font-c">
+              <li className="mb-3 text-base font-c" data-aos="fade-left">
                 <a href="#">Wholesale Inquiries</a>
               </li>
-              <li className="mb-3 text-base font-c">
+              <li className="mb-3 text-base font-c" data-aos="fade-right">
                 <a href="#">Batch Lookup</a>
               </li>
-              <li className="text-base font-c">
+              <li className="text-base font-c" data-aos="fade-left">
                 <a href="#">Privacy Policy Terms of Service</a>
               </li>
             </ul>
           </div>
           <div className="flex flex-col lg:ml-12 mb-11">
-            <p className="footer-social font-c text-3xl lg:text-6xl mb-2">
+            <p
+              className="footer-social font-c text-3xl lg:text-6xl mb-2"
+              data-aos="fade-left"
+            >
               Instagram
             </p>
-            <p className="footer-social font-c text-3xl lg:text-6xl mb-2">
+            <p
+              className="footer-social font-c text-3xl lg:text-6xl mb-2"
+              data-aos="fade-right"
+            >
               Facebook
             </p>
-            <p className="footer-social font-c text-3xl lg:text-6xl">Twitter</p>
+            <p
+              className="footer-social font-c text-3xl lg:text-6xl"
+              data-aos="fade-left"
+            >
+              Twitter
+            </p>
           </div>
         </div>
-        <p className="footer-privacy font-c">
+        <p className="footer-privacy font-c" data-aos="fade-right">
           © 2021,goplato.com <br />
           Design:Sofia Code: No Matter
         </p>
       </div>
 
       <div className="footer-bottom-wrap flex items-center ">
-        <button className="footer-bottom-btn font-f0 ">Got it!</button>
-        <p className="font-f0">Learn More</p>
+        <button className="footer-bottom-btn font-f0 " data-aos="fade-right">
+          Got it!
+        </button>
+        <p className="font-f0" data-aos="fade-left">
+          Learn More
+        </p>
       </div>
     </div>
   );

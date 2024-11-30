@@ -10,14 +10,17 @@ const About = () => {
     <div className="about-section w-100%" id="about">
       <div className="container">
         <div className="about-wrap pt-7 m-auto text-center">
-          <h2 className=" about-title text-3xl xl:text-6xl md:text-5xl sm:text-4xl">
+          <h2
+            className=" about-title text-3xl xl:text-6xl md:text-5xl sm:text-4xl"
+            data-aos="fade-down"
+          >
             Busy people love Plato for more energy, better focus, and a feeling
             of calm
           </h2>
         </div>
         <div className="review-wrap">
           <ul className="review-list flex ">
-            <li className="review-item">
+            <li className="review-item" data-aos="fade-left">
               <img className="review-img mb-8" src={womanImg} alt="" />
               <p className="review-text pb-3 text-xl">
                 "Taking Plato every morning gave me an awesome boost of energy
@@ -31,7 +34,11 @@ const About = () => {
                 <span className="customer-text text-lg">Verified Customer</span>
               </div>
             </li>
-            <li className="review-item">
+            <li
+              className="review-item"
+              data-aos="fade-left"
+              data-aos-delay="900"
+            >
               <img className="review-img mb-8" src={manImg} alt="" />
               <p className="review-text text-xl">
                 "After a week of Plato, my mood has stabilized and I can think
@@ -44,7 +51,11 @@ const About = () => {
                 <span className="customer-text text-lg">Verified Customer</span>
               </div>
             </li>
-            <li className="review-item">
+            <li
+              className="review-item"
+              data-aos="fade-left"
+              data-aos-delay="1500"
+            >
               <img className="review-img mb-8" src={girlImg} alt="" />
               <p className="review-text text-xl">
                 "I felt an increase in focus and energy levels while I worked

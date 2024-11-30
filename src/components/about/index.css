@@ -28,11 +28,12 @@
 }
 .review-list {
   gap: 50px;
+  overflow: hidden;
 }
 .review-item {
   position: relative;
   width: 476px;
-  height: 572px;
+  height: 470px;
 }
 
 .review-text {

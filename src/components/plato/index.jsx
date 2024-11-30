@@ -8,11 +8,18 @@ const Plato = () => {
     <>
       <div className="plato-section">
         <div className="plato-wrap container">
-          <h1 className="plato-title inline-block text-4xl sm:text-5xl  md:text-6xl lg:text-7xl mb-9 ">
+          <h1
+            className="plato-title inline-block text-4xl sm:text-5xl  md:text-6xl lg:text-7xl mb-9 "
+            data-aos="zoom-in"
+          >
             More focus. <br />
             Fewer off days.
           </h1>
-          <p className="plato-text text-xl mb-9 flex-wrap">
+          <p
+            className="plato-text text-xl mb-9 flex-wrap"
+            data-aos="fade-right"
+            data-aos-delay="500"
+          >
             A simple daily habit for staying focused without a crash.
           </p>
           <div className="plato-btns-wrap flex gap-5 ">

@@ -9,8 +9,8 @@ const Capsules = () => {
     <div className="capsules-section px-5">
       {/* <div className="container"> */}
       <div className="capsules-folder flex items-center justify-center lg:gap-11">
-        <img src={capsuleImg} alt="" />
-        <div className="capsules-wrap ">
+        <img src={capsuleImg} alt="" data-aos="fade-right" />
+        <div className="capsules-wrap " data-aos="fade-left">
           <p className="capsules-text text-4xl sm:text-5xl  lg:text-8xl   mb-8">
             {" "}
             2 capsules of Plato

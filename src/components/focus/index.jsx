@@ -11,7 +11,11 @@ const Focus = () => {
       <img src={purpleWaveImg} alt="purpleWaveImg" />
       <div className="focus-folder">
         <div className="focus-wrap m-auto text-center flex flex-col items-center ">
-          <h2 className="focus-title lg:text-6xl md:text-4xl text-3xl pb-3">
+          <h2
+            className="focus-title lg:text-6xl md:text-4xl text-3xl pb-3"
+            data-aos="fade-down"
+            data-aos-delay="500"
+          >
             Inability to focus can ripple into many areas of life, creating a
             vicious cycle
           </h2>

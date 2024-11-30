@@ -11,12 +11,20 @@ const Questions = () => {
       <img src={topWaveImg} alt="" />
       <div className="questions-folder px-5">
         <div className="questions-wrapper">
-          <p className="questions-title text-2xl lg:text-6xl mb-5 lg:mb-10">
+          <p
+            className="questions-title text-2xl lg:text-6xl mb-5 lg:mb-10"
+            data-aos="fade-right"
+            data-aos-delay="200"
+          >
             Our door is always open. Love your sample? Have questions? There’s a
             real person to hear what you think on the other side
           </p>
           <img className="questions-img" src={handeImg} alt="" />
-          <p className="font-fff questions-text text-base lg:text-lg">
+          <p
+            className="font-fff questions-text text-base lg:text-lg"
+            data-aos="fade-right"
+            data-aos-delay="200"
+          >
             Hit us up day or night. We want to hear what you think -- questions
             and all.
           </p>

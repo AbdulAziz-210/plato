@@ -1,4 +1,11 @@
 // import { useState } from "react";
+
+//aos ni import qilish start
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+//aos ni import qilish end
+
 import "./index.css";
 import Header from "../header";
 import Plato from "../plato/index";
@@ -12,11 +19,19 @@ import Limitless from "../limitless";
 import Couch from "../couch";
 import Cheap from "../cheap";
 import Purchase from "../purchase";
-import Rusult from "../result";
+import Result from "../result";
 import Questions from "../questions";
 import Footer from "../footer";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      offset: 40,
+      duration: 1000,
+      once: false
+    });
+  }, []);
+
   return (
     <>
       <div>
@@ -33,7 +48,7 @@ function App() {
         <Couch />
         <Cheap />
         <Purchase />
-        <Rusult />
+        <Result />
         <Questions />
         <Footer />
       </div>

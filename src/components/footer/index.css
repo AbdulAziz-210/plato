@@ -6,6 +6,7 @@
   background-repeat: no-repeat;
   background-position: calc(50% + 405px) calc(50% + 49px);
   margin-top: 70px;
+  /* overflow: hidden; */
 }
 /* .footer-back-folder {
 } */

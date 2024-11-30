@@ -14,17 +14,23 @@ const Purchase = () => {
       <img src={purpleWaveImg} alt="" />
       <div className="purchase-folder px-5">
         <div className="purchase-wrapper flex flex-col">
-          <h2 className="purchase-title text-4xl sm:text-6xl md:text-7xl lg:text-8xl m-auto text-center">
+          <h2
+            className="purchase-title text-4xl sm:text-6xl md:text-7xl lg:text-8xl m-auto text-center"
+            data-aos="fade-down"
+          >
             7 Days for $7
           </h2>
-          <p className="purchase-text text-2xl sm:text-3xl lg:text-4xl m-auto text-center">
+          <p
+            className="purchase-text text-2xl sm:text-3xl lg:text-4xl m-auto text-center"
+            data-aos="zoom-in-up"
+          >
             First Time Purchase Offer
           </p>
         </div>
 
         <div className="flex flex-col sm:flex-col  lg:flex-row  items-center justify-center text-center m-auto gap-12">
-          <img src={handImg} alt="" />
-          <div>
+          <img src={handImg} alt="" data-aos="fade-right" />
+          <div data-aos="fade-left">
             <p className="purchase-next-text text-base lg:text-lg mb-9">
               We’re so confident you’ll love Plato that we’re willing to give it
               to you for next to nothing so that you can find out if it’s right
@@ -41,10 +47,10 @@ const Purchase = () => {
             <strong className="purchase-strong text-xl lg:text-2xl flex items-center justify-center mb-4">
               Send My Sample Pack:
             </strong>
-            <button className="purchase-btn rounded-full py-1 lg:py-4 flex items-center justify-center m-auto">
+            <button className="purchase-btn rounded-full py-1 lg:py-5 flex items-center justify-center m-auto">
               Add to Cart | $7
             </button>
-            <button className="purchase-btns rounded-full py-1 lg:py-4 flex items-center justify-center m-auto mb-6">
+            <button className="purchase-btns rounded-full py-1 lg:py-5 flex items-center justify-center m-auto mb-6">
               Shop All Options{" "}
             </button>
             <img className="purchase-img" src={square} alt="" />

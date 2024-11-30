@@ -16,6 +16,7 @@
 
 .product-list {
   margin-bottom: 99px;
+  overflow: hidden;
 }
 .product-btn-wrap {
   text-align: center;
