@@ -7,6 +7,7 @@
   background-position: calc(50% + 405px) calc(50% + 49px);
   margin-top: 70px;
   /* overflow: hidden; */
+  /* overflow-y: hidden; */
 }
 /* .footer-back-folder {
 } */
@@ -47,6 +48,7 @@
 /*  */
 .footer-folder {
   position: relative;
+  /* overflow-x: hidden; */
 }
 .footer-title {
   color: var(--font-and-background-color);
@@ -68,6 +70,7 @@
 }
 .footer-wrap > ul {
   margin-left: 10px;
+  /* overflow: hidden; */
 }
 
 .footer-btn {

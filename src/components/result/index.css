@@ -1,6 +1,8 @@
 /*  */
 .result-section {
   margin-bottom: 178px;
+
+  overflow-x: hidden;
 }
 .result-folder {
   max-width: 800px;

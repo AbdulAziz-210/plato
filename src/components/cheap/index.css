@@ -10,6 +10,8 @@
   background-position: calc(50% - 482px) calc(50% - 124px),
     calc(50% - 544px) calc(50% + 259px), calc(50% + 584px) calc(50% - 93px);
   margin-bottom: 160px;
+
+  overflow-x: hidden;
 }
 
 .cheap-title {

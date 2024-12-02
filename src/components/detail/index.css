@@ -1,6 +1,7 @@
 /*  */
 .detail-section {
   margin-bottom: 240px;
+  overflow-x: hidden;
 }
 .detail-folder {
   background-image: url("../../assets/images/purple-background.png");

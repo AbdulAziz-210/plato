@@ -24,14 +24,6 @@ import Questions from "../questions";
 import Footer from "../footer";
 
 function App() {
-  useEffect(() => {
-    AOS.init({
-      offset: 40,
-      duration: 1000,
-      once: false
-    });
-  }, []);
-
   return (
     <>
       <div>
@@ -57,3 +49,38 @@ function App() {
 }
 
 export default App;
+
+// function App() {
+//   useEffect(() => {
+//     AOS.init({
+//       offset: 50,
+//       duration: 1000,
+//       once: false
+//     });
+//   }, []);
+
+//   return (
+//     <>
+//       <div>
+//         <Header />
+//         <Plato />
+//         <About />
+//         <Focus />
+//         {/* <Product /> */}
+//         <Detail />
+//         <Capsules />
+//         <Time />
+//         <Limitless />
+
+//         <Couch />
+//         <Cheap />
+//         {/* <Purchase /> */}
+//         <Result />
+//         <Questions />
+//         <Footer />
+//       </div>
+//     </>
+//   );
+// }
+
+// export default App;

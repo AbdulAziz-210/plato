@@ -10,6 +10,8 @@
   background-repeat: no-repeat;
   background-position: calc(50% - 548px) calc(50% + 434px),
     calc(50% + 558px) calc(50% - 592px);
+
+  overflow-x: hidden;
 }
 
 .limitless-title {

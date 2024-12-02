@@ -29,6 +29,9 @@
   max-width: 548px;
   width: 100%;
 }
+.capsules-folder {
+  overflow: hidden;
+}
 
 @media (max-width: 950px) {
   .capsules-section {

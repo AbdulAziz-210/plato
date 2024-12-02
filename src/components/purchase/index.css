@@ -16,6 +16,9 @@
   color: var(--font-colors);
   margin-bottom: 70px;
 }
+.purchase-wrap {
+  overflow: hidden;
+}
 
 .purchase-next-text {
   max-width: 532px;

@@ -28,7 +28,7 @@ const Purchase = () => {
           </p>
         </div>
 
-        <div className="flex flex-col sm:flex-col  lg:flex-row  items-center justify-center text-center m-auto gap-12">
+        <div className="purchase-wrap flex flex-col sm:flex-col  lg:flex-row  items-center justify-center text-center m-auto gap-12">
           <img src={handImg} alt="" data-aos="fade-right" />
           <div data-aos="fade-left">
             <p className="purchase-next-text text-base lg:text-lg mb-9">

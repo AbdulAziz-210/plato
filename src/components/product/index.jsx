@@ -1,6 +1,9 @@
 //
 //
+import { useEffect } from "react";
 import "./index.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import greenTea from "../../assets/images/green-tea.png";
 import student from "../../assets/images/student.png";
@@ -8,6 +11,13 @@ import greenPlan from "../../assets/images/green-plan.png";
 import manImage from "../../assets/images/man-image.png";
 
 const Product = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false,
+      offset: 50
+    });
+  });
   return (
     <div className="product-section" id="product">
       <div className="container">
