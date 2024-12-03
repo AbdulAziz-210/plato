@@ -120,12 +120,8 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom-wrap flex items-center ">
-        <button className="footer-bottom-btn font-f0 " data-aos="fade-right">
-          Got it!
-        </button>
-        <p className="font-f0" data-aos="fade-left">
-          Learn More
-        </p>
+        <button className="footer-bottom-btn font-f0 ">Got it!</button>
+        <p className="font-f0">Learn More</p>
       </div>
     </div>
   );

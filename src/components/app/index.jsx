@@ -31,7 +31,9 @@ function App() {
         <Plato />
         <About />
         <Focus />
+
         <Product />
+
         <Detail />
         <Capsules />
         <Time />

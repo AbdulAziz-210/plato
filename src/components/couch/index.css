@@ -4,7 +4,7 @@
 .couch-section {
   background-image: url("../../assets//images/wave-background.png");
   height: 857px;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .couch-img {
