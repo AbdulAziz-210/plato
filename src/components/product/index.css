@@ -2,7 +2,9 @@
 
 .product-section {
   margin-bottom: 190px;
-  overflow: hidden;
+}
+.product-folder {
+  /* overflow: hidden; */
 }
 .product-wrap {
   max-width: 873px;
@@ -18,10 +20,10 @@
 .product-list {
   margin-bottom: 99px;
   overflow: hidden;
+  /* margin: 0 70px 99px 20px; */
+  /* margin-right: 70px; */
 }
-/* .product-item {
-  overflow: hidden;
-} */
+
 .product-btn-wrap {
   text-align: center;
 }

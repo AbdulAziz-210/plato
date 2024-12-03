@@ -12,6 +12,7 @@ import Plato from "../plato/index";
 import About from "../../components/about/index";
 import Focus from "../../components/focus/index";
 import Product from "../product";
+import ProductItem from "../product-items";
 import Detail from "../detail";
 import Capsules from "../capsules";
 import Time from "../time";
@@ -24,6 +25,13 @@ import Questions from "../questions";
 import Footer from "../footer";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      offset: 50
+    });
+  });
+
   return (
     <>
       <div>
@@ -33,6 +41,7 @@ function App() {
         <Focus />
 
         <Product />
+        <ProductItem />
 
         <Detail />
         <Capsules />
