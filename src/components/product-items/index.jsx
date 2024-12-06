@@ -8,7 +8,8 @@ const ProductItem = ({
   thirdText = "",
   dataAos = "",
   dataAosDelay = "",
-  dataAosRight = "",
+  imgDelay = "",
+  dataAosImg = "",
   flexRowReverse = false
 }) => {
   return (
@@ -22,7 +23,8 @@ const ProductItem = ({
         className="product-img"
         src={images}
         alt=""
-        data-aos={dataAosRight}
+        data-aos={dataAosImg}
+        data-aos-delay={imgDelay}
       />
 
       <div

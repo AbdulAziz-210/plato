@@ -29,122 +29,69 @@ const Product = () => {
               Four safe ingredients to target focus, fatigue, and energy drain
             </p>
           </div>
-          <ul className="product-list ">
+          <ul className="product-list flex flex-col items-center justify-center">
             <ProductItem
+              //img
               images={greenTea}
+              imgDelay="1200"
+              dataAosImg="fade-right"
+              //img
+              //div
               dataAos="fade-left"
               dataAosDelay="1000"
               firstText="L-Theanine, 200 mg"
               secondText="the thing in green tea that you love"
               thirdText="Reduces temporary anxiety induced by stressful situations."
-              dataAosRight="fade-right"
+              //div
             />
             <ProductItem
-              images={student}
-              dataAosRight="fade-right"
-              dataAosDelay="1000"
+              //div
+              dataAos="fade-left"
+              dataAosDelay="1500"
               firstText="Bacopa Monnieri, 300 mg"
               secondText="a student’s secret weapon"
               thirdText="Improves attention, enhances focus, supports a positive mood."
-              dataAos="fade-left"
+              //div
+
+              //img
+              images={student}
+              dataAosImg="fade-right"
+              imgDelay="2000"
+              //img
               flexRowReverse
             />
+            <ProductItem
+              //img
+              images={greenPlan}
+              dataAosImg="fade-right"
+              imgDelay="2000"
+              //img
 
-            {/* <li className="product-item  items-center flex-col sm:flex-col md:flex-row lg:flex sm:mb-6 text-center">
-              <img
-                className="product-img m-auto"
-                src={greenTea}
-                alt=""
-                data-aos="fade-right"
-                data-aos-delay="800"
-              />
-              <div
-                className="flex flex-col text-start"
-                data-aos="fade-left"
-                data-aos-delay="1000"
-              >
-                <p className="product-text text-lg font-c ">
-                  L-Theanine, 200 mg
-                </p>
-                <p className="product-text text-3xl sm:text-4xl  lg:text-6xl mb-9 font-c">
-                  the thing in green tea that you love
-                </p>
-                <p className="product-text text-lg">
-                  Reduces temporary anxiety induced by stressful situations.
-                </p>
-              </div>
-            </li> */}
+              //div
+              dataAos="fade-left"
+              dataAosDelay="2000"
+              firstText="Rhodiola Rosea, 100 mg"
+              secondText="the no worries root"
+              thirdText="May help reduce cortisol response to stress, support a positive mood, and support concentration."
+              //div
+            />
 
-            {/* <li className="product-item flex-col sm:flex-col md:flex-row lg:flex items-center lg:flex-row-reverse sm:mb-6 text-center">
-              <img
-                className="product-img m-auto"
-                src={student}
-                alt=""
-                data-aos="fade-left"
-                data-aos-delay="1600"
-              />
-              <div
-                className="flex flex-col text-start"
-                data-aos="fade-right"
-                data-aos-delay="1600"
-              >
-                <p className="product-text text-lg">Bacopa Monnieri, 300 mg</p>
-                <p className="product-text text-3xl sm:text-4xl lg:text-6xl mb-9  ">
-                  a student’s secret weapon
-                </p>
-                <p className="product-text text-lg">
-                  Improves attention, enhances focus, supports a positive mood.
-                </p>
-              </div>
-            </li>
+            <ProductItem
+              //div
+              dataAos="fade-left"
+              dataAosDelay="2500"
+              firstText="Panax Ginseng, 60 mg"
+              secondText="helps you stay in a productive flow"
+              thirdText="Supports cognitive performance, improves working memory, reduces the perception of mental fatigue."
+              //div
 
-            <li className="product-item flex-col sm:flex-col md:flex-row lg:flex items-center sm:flex-col sm:mb-6 text-center">
-              <img
-                className="product-img m-auto"
-                src={greenPlan}
-                alt=""
-                data-aos="fade-right"
-                data-aos-delay="2100"
-              />
-              <div
-                className="flex flex-col text-start"
-                data-aos="fade-left"
-                data-aos-delay="2100"
-              >
-                <p className="product-text text-lg">Rhodiola Rosea, 100 mg</p>
-                <p className="product-text text-3xl sm:text-4xl lg:text-6xl mb-9">
-                  the no worries root
-                </p>
-                <p className="product-text text-lg">
-                  May help reduce cortisol response to stress, support a
-                  positive mood, and support concentration.
-                </p>
-              </div>
-            </li>
-
-            <li className="product-item flex-col sm:flex-col md:flex-row lg:flex  items-center lg:flex-row-reverse sm:flex-col sm:mb-6 text-center">
-              <img
-                className="product-img m-auto"
-                src={manImage}
-                alt=""
-                data-aos="fade-left"
-                data-aos-delay="2500"
-              />
-              <div
-                className="flex flex-col text-start"
-                data-aos="fade-right"
-                data-aos-delay="2500"
-              >
-                <p className="product-text text-lg">Panax Ginseng, 60 mg</p>
-                <p className="product-text text-3xl sm:text-4xl lg:text-6xl mb-9">
-                  helps you stay in a productive flow
-                </p>
-                <p className="product-text text-lg">
-                  Supports cognitive performance, improves working memory,
-                  reduces the perception of mental fatigue.
-                </p>
-              </div>
-            </li> */}
+              //img
+              images={manImage}
+              dataAosImg="fade-right"
+              imgDelay="2500"
+              //img
+              flexRowReverse
+            />
           </ul>
 
           <div className="product-btn-wrap gap-4 flex-col lg:flex-row md:flex items-center justify-center text-center">

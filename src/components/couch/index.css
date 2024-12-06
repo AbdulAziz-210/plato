@@ -46,3 +46,9 @@
     margin: 0px 0 60px;
   }
 }
+
+@media (max-width: 450px) {
+  .couch-section {
+    height: 490px;
+  }
+}

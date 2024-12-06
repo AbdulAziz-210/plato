@@ -92,8 +92,8 @@
 }
 .footer-privacy {
   position: absolute;
-  bottom: -25px;
-  right: 5px;
+  bottom: 10px;
+  right: 15px;
 }
 /*  */
 /*  */
@@ -167,6 +167,11 @@
   .footer-wrap > ul {
     margin-left: 35px;
   }
+  /* .footer-privacy {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  } */
 }
 
 @media (max-width: 450px) {
@@ -177,9 +182,11 @@
   .footer-wrap > ul {
     margin-left: 32px;
   }
-  .footer-privacy {
-    bottom: 0;
-  }
+  /* .footer-privacy {
+    position: absolute;
+    bottom: 7px;
+    right: 10px;
+  } */
 }
 
 @media (max-width: 340px) {
